@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_height="match_parent"
+<LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:gravity="center"
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:id="@+id/imageView1"
@@ -14,7 +16,10 @@
         android:layout_width="wrap_content"
         android:id="@+id/textView1"
         android:text="Tên"
+        android:textColor="#ff11"
+        android:textStyle="bold"
         android:textSize="30dp"
+        android:layout_gravity="center"
         android:layout_below="@id/imageView1"
         />
-</RelativeLayout>
+</LinearLayout>
